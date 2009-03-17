@@ -1,6 +1,6 @@
 Name:			oggconvert
 Version:		0.3.2
-Release:		%mkrel 1
+Release:		%mkrel 2
 Summary:		A small utility for converting media files into Ogg, Theora and Dirac formats
 Group:			Sound
 License:		LGPLv2
@@ -13,7 +13,7 @@ BuildRequires:		python-devel gstreamer0.10-python desktop-file-utils
 Requires(post):		desktop-file-utils
 Requires(postun):	desktop-file-utils
 %endif
-Requires:		python-gtk python-gtk-glade gstreamer0.10-python
+Requires:		pygtk2.0-libglade gstreamer0.10-python
 Requires:		gstreamer0.10-plugins-base
 Suggests:		gstreamer0.10-plugins-good
 Suggests:		gstreamer0.10-plugins-bad
