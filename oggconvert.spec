@@ -1,6 +1,6 @@
 Name:			oggconvert
-Version:		0.3.2
-Release:		%mkrel 4
+Version:		0.3.3
+Release:		%mkrel 1
 Summary:		A small utility for converting media files into Ogg, Theora and Dirac formats
 Group:			Sound
 License:		LGPLv2
