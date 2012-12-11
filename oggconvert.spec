@@ -71,3 +71,26 @@ desktop-file-install \
 %clean
 rm -rf %buildroot
 
+
+
+%changelog
+* Wed Apr 20 2011 Michael Scherer <misc@mandriva.org> 0.3.3-1mdv2011.0
++ Revision: 656139
+- update to new version 0.3.3
+
+* Sat Mar 27 2010 Michael Scherer <misc@mandriva.org> 0.3.2-4mdv2011.0
++ Revision: 528266
+- rebuild
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - rebuild
+
+* Tue Mar 17 2009 Frederic Crozat <fcrozat@mandriva.com> 0.3.2-2mdv2009.1
++ Revision: 356622
+- Fix broken dependencies, they were GNOME1 while oggconvert is now using GNOME2
+
+* Thu Mar 12 2009 Michael Scherer <misc@mandriva.org> 0.3.2-1mdv2009.1
++ Revision: 354214
+- import oggconvert, package made by mdv@incubusss.net, close bug #45084
+
+
