@@ -5,7 +5,7 @@ Summary:		A small utility for converting media files into Ogg, Theora and Dirac 
 Group:			Sound
 License:		LGPLv2
 Source:			http://oggconvert.tristanb.net/releases/%version/%name-%version.tar.gz
-URL:			http://oggconvert.tristanb.net/
+URL:			https://oggconvert.tristanb.net/
 BuildArch:		noarch
 BuildRoot:		%_tmppath/%name-%version-%release-buildroot
 BuildRequires:		python-devel gstreamer0.10-python desktop-file-utils
